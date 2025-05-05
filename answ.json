@@ -1,0 +1,101 @@
+{
+    "What is a conceptual model": [
+      "An explicit description of implicit mental structures that is in a semantic agreement between the stakeholders",
+      "A mapping of implicit domain interpretations (mental structures) – interlinked concepts – into commonly agreed symbols and schemas – term graphs"
+    ],
+    "What are the modelling elements used in Conceptual Modelling? - Please choose as many variants as appropriate": [
+      "An Entity Type - a container for entities having the same defining properties but with different values",
+      "An Entity - an element that corresponds to a real-world object or process",
+      "A Relationship - a property that reflects the connection between different Entity Types or Entities",
+      "An Attribute - a property of an Entity Type, Entity, or Relationship"
+    ],
+    "What are the valid steps in a Conceptual Modelling Workflow? - Please choose as many variants as appropriate": [
+      "Elicit requirements",
+      "Specify the primary entity type",
+      "Define more entity types",
+      "Distribute attributes",
+      "Specify basic relationships for entity types",
+      "Specify primary keys for entity types",
+      "Specify foreign keys",
+    "Specify composites and aggregates",
+      "Define generalizations",
+      "Specify the attributes for the primary entity type"
+    ],
+    "What are the kinds of Attributes in a Conceptual Model? - Please select as many variants as appropriate": [
+      "Atomic Attribute - the value cannot be split without the loss in sense",
+      "Composite Attribute - the value could be decomposed into several sensible parts",
+      "Single-valued Attribute - only one value is allowed",
+      "Multi-valued Attribute - many different values are allowed",
+      "Stored Attribute - the values are stored in the DataBase",
+      "Derived Attribute - the values are not stored but computed as a function of the other attributes",
+      "Key Attribute - an attribute which is the part of the primary key for the Entity Type",
+      "Candidate Key Attribute - an attribute which might be used as part of the Primary Key",
+      "Identifying Attribute - an attribute from a corresponding Strong Entity Type used as part of the Primary Key",
+      "Foreign Key Attribute - an attribute that belongs to a different Entity Type and is used as a part of the Primary Key"
+    ],
+    "What is a DataBase application program?": [
+      "It is the part of the Business Logic layer of the DMS architecture",
+      "It is a computer program that interacts with the database, via DBMS",
+      "It is a computer program that issues a query to the DBMS and receives the result back for further processing"
+    ],
+    "What is a datum?": [
+      "A datum is an element of computer storage used as input for computation",
+      "A datum is the part of a sensory input that could potentially be useful",
+      "A datum is a note or message containing information"
+    ],
+    "What is a model?": [
+      "A simplified and miniaturized copy of a real object",
+      "An informative representation of a set (class) of similar individuals (objects, processes, or associations) used to recognize, classify, and communicate about these entities",
+      "A mathematical equation that helps predict the behaviour of a real-world phenomenon",
+      "A person who demonstrates haut couture clothes at the podium"
+    ],
+    "What is a pragmatic context?": [
+      "A pragmatic context is the part of the Universe of Discourse within the focus of practical interest",
+      "A pragmatic context is a limited part of the Universe of Discourse that could be observed with sufficient detail for practice",
+    "A pragmatic context is the part of the Universe of Discourse within the focus of practical interest"
+],
+    "What is an abstract model?": [
+      "An abstraction of many real world entity instances that fall into a single concept by holding the similar set of definitional properties"
+    ],
+    "What are the valid DBMS features?": [
+      "Is independent of subject domain",
+      "Is independent of the stored data",
+      "Is capable of coping with complex data structures",
+      "Contains an adequately hollistic and complete representation of a domain",
+      "Enables data integration",
+      "Enables optimal data redundancy",
+      "Provides for data safety and security with proper access rights",
+      "Provides the persistence of data",
+      "Ensures the independence of data from the applications",
+      "Provides for data processing efficacy"
+    ],
+    "What are the features of relationships used in Conceptual Modelling?": [
+      "Multiplicity - the number of instances taking part in the relationship",
+      "Membership - the modality of participation (optional or obligatory)",
+      "Participation - the modality of being a member in the relationship (optional or obligatory)",
+      "Cardinality - the number of participating parties (binary or n-ary)"
+    ],
+    "What is information?": [
+      "Information is the incoming sensory signal that is processed for a purpose",
+      "Information is a datum that is proven useful and triggers action after it is processed",
+      "Information is what is necessary to have for answering this question"
+    ],
+    "What is a DataBase?": [
+      "A DataBase is an organized and structured collection of data to be used by several stakeholders in their subject domain",
+      "A DataBase is a storage of data managed and manipulated using a DBMS"
+    ],
+    "Which types of relationships are used in Conceptual Modelling?": [
+      "One-to-One Relationship - a relationship that connects single Entities",
+      "One-to-Many relationship - a relationship that connects one Entity with several other Entities",
+      "Many-to-Many Relationship - a relationship that connects many Entities of one Entity Type to many Entities of the other Entity Type",
+      "Generalization Relationship - connects several sub-concepts (Entity Types) to one super-concept (Entity Type); sub-concepts inherit properties of the super-concept",
+      "Part-Whole Relationship - connects several Entity Types representing parts to the Entity Type representing the whole; may be an Aggregation or Composition"
+    ],
+    "What are the modelling elements used in Conceptual Modelling?": [
+      "An Entity Type - a container for entities having the same defining properties but with different values",
+      "An Entity - an element that corresponds to a real-world object or process",
+      "A Relationship - a property that reflects the connection between different Entity Types or Entities",
+      "An Attribute - a property of an Entity Type, Entity, or Relationship"
+    ]
+  }
+  
